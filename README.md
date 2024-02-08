@@ -8,7 +8,7 @@
 
 ## How to use
 
-1. Create a new repo using this template
+1. Create a new repo using this template. Be sure to **clone all branches**.
 2. Clone to your local dev environment
 3. Update the `shopify.theme.toml` file to set `store` to the Shopify subdomain of your store. This will enable you to run the Shopify CLI like this: `shopify theme dev -e main`. If you want to use this theme on multiple stores, you can add additional environments like `[environments.ca]` (for Canada, say) with the `store` set to the subdomain of the Canadian store.
 4. Switch to the `theme-store-theme` branch and run `shopify theme pull -e main -t 123456789` where 123456789 is the id of the latest unchanged Theme Store theme you are working on.
